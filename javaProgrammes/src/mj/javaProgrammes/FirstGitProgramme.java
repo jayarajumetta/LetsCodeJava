@@ -20,22 +20,33 @@ public class FirstGitProgramme {
 		 Simple Hello World Application.
 		 */
 		
-		// TODO Auto-generated method stub
-		//System.out.println("Hello World ");
-		//JavaConceptsDocumentation.javaConcepts();
+		// Display Hello World
+		
+			//System.out.println("Hello World ");
+		
+		/*Display Documented Concepts in console */
+		
+			//JavaConceptsDocumentation.javaConcepts();
 		
 		//Instance of a Bicycle -Object Creation
+		
 		BicycleDemo cycle1=new BicycleDemo();
-		cycle1.printState();
+			
+			//print the state before we change it
+			
+			cycle1.printState();
 		
 		//Change the Bicycle state and create an instance of it
+			
 		BicycleDemo cycle2=new BicycleDemo();
-		cycle2.changeCadence(5);
-		cycle2.changeGear(6);
-		cycle2.applyBreaks(3);
-		cycle2.speedUp(8);
-		cycle2.printState();
 		
+			//Change the Bicycle status through cycle2 Object(Instance of a BicycleDemo)
+		
+			cycle2.changeCadence(5);
+			cycle2.changeGear(6);
+			cycle2.applyBreaks(3);
+			cycle2.speedUp(8);
+			cycle2.printState();
 		
 	}
 
