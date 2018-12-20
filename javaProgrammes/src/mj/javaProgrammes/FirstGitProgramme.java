@@ -22,7 +22,7 @@ public class FirstGitProgramme {
 		
 		// Display Hello World
 		
-			//System.out.println("Hello World ");
+			System.out.println("Hello World ");
 		
 		/*Display Documented Concepts in console */
 		
@@ -47,6 +47,10 @@ public class FirstGitProgramme {
 			cycle2.applyBreaks(3);
 			cycle2.speedUp(8);
 			cycle2.printState();
+			//Working with Strings in Java
+
+			ActionsOnStrings ObjString= new ActionsOnStrings();
+			ObjString.StringMethods();
 		
 	}
 
