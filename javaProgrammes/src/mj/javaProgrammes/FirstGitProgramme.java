@@ -40,7 +40,7 @@ public class FirstGitProgramme {
 			
 		BicycleDemo cycle2=new BicycleDemo();
 		
-			//Change the Bicycle status through cycle2 Object(Instance of a BicycleDemo)
+			//Change the Bicycle status through cycle2 Object(Second Instance of a BicycleDemo)
 		
 			cycle2.changeCadence(5);
 			cycle2.changeGear(6);
